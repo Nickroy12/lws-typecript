@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./output",
+
+    "module": "ESNext",         // Change from 'nodenext' to 'ESNext'
+    "target": "ESNext",
+    
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false, // Turn this off so TS can manage module emission cleanly for browsers
+    "isolatedModules": true,
+    "skipLibCheck": true
+  }
+}
