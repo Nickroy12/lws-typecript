@@ -1,6 +1,14 @@
-"use strict";
-// const country = 'Bangladesh'
+// video 2 
+// console first
+// console.log('Hi')
+// declear variable
+// const country = "Bangladesh";
 // console.log(country)
-const sentence = "I Love My Country too mu";
-console.log(sentence);
-//# sourceMappingURL=script.js.map
+// -------------------------------
+// video 3
+// reassign x
+let PlayerName = "Sakib Al Hasan";
+console.log(PlayerName);
+PlayerName = 40;
+console.log(PlayerName);
+export {};

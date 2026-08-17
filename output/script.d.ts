@@ -1,2 +1,2 @@
-declare const sentence = "I Love My Country too mu";
+export {};
 //# sourceMappingURL=script.d.ts.map
