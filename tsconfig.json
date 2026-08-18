@@ -4,7 +4,7 @@
     "outDir": "./output",
 
     "module": "ES2020",
-    "target": "es6",
+    "target": "ES2020",
     "types": ["node"],
 
     "sourceMap": false,
