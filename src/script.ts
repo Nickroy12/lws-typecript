@@ -2,6 +2,8 @@
 // console first
 // console.log('Hi')
 
+import { array } from "node:stream/iter";
+
 // declear variable
 
 // const country = "Bangladesh";
@@ -63,3 +65,15 @@
 //--------------------------------
 
 // video - 4 
+
+// let a : string;
+// let b : number
+
+// a = "adbik"
+
+// b = 32
+
+// array
+
+let a : (number | string)[]= []
+a.push('Sum')
