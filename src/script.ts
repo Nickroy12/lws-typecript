@@ -113,4 +113,18 @@
 // }
  //-------------------------------------
 
- 
+//  video -6 
+let myFunc : Function;
+myFunc= () =>{
+    console.log('Hello')
+};
+
+let myName = (firstName : string , lastName : string, middleName:string = "chandra" ) =>{
+    console.log(middleName)
+      console.log(`Hi ${firstName} ${lastName}`)
+}
+ myName('Nick' , "roy")
+let myNum = (a : string , b : string, c:string = "true") =>{
+return a + b
+}
+ myName('Nick' , "roy")

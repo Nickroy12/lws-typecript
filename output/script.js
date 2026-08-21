@@ -70,9 +70,27 @@
 // a.push('Bangladesh')
 // a.push(4)
 // console.log(a)
-let b;
-b = {
-    name: 'nick',
-    age: 34
+// let b : {
+//     name : any,
+//     age: any
+// }
+// b={
+//     name: 'nick',
+//     age:34
+// }
+//-------------------------------------
+//  video -6 
+let myFunc;
+myFunc = () => {
+    console.log('Hello');
 };
+let myName = (firstName, lastName, middleName = "chandra") => {
+    console.log(middleName);
+    console.log(`Hi ${firstName} ${lastName}`);
+};
+myName('Nick', "roy");
+let myNum = (a, b, c = "true") => {
+    return a + b;
+};
+myName('Nick', "roy");
 export {};
