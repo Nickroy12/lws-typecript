@@ -2,7 +2,7 @@
 // console first
 // console.log('Hi')
 
-import { array } from "node:stream/iter";
+
 
 // declear variable
 
@@ -72,8 +72,45 @@ import { array } from "node:stream/iter";
 // a = "adbik"
 
 // b = 32
+// number 
+// let b : string | number
+// // array
 
-// array
+// let a : (number | string)[]= []
+// a.push('Sum', 4 )
 
-let a : (number | string)[]= []
-a.push('Sum')
+// b = 'sumit'
+
+// // let c : object
+// let c : {
+//     name : string,
+//     age: number,
+//     student:boolean
+// }
+
+// c = {
+//     name: 'nick roy',
+//     age:23,
+//     student : true
+
+// }
+
+// -----------------------------------
+// video - 5 
+
+// let a : any[] = []
+// a.push('Bangladesh')
+// a.push(4)
+// console.log(a)
+
+// let b : {
+//     name : any,
+//     age: any
+// }
+// b={
+//     name: 'nick',
+//     age:34
+// }
+ //-------------------------------------
+
+ 
