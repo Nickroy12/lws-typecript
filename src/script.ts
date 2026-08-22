@@ -155,3 +155,26 @@
 //    }
 // }
 // console.log(add(3 , 5 , "min")) 
+
+//-------------------------------------------
+// video - 9 
+class player {
+   private name : string;
+    public age: number;
+   readonly country: string;
+    constructor(n:string , a:number , c:string){
+        this.name = n;
+        this.age = a;
+        this.country = c
+    }
+    play(){
+        console.log(`${this.name} from ${this.country}`)
+    }
+}
+const marshafi = new player('marshafi', 43 , "Bangladesh")
+const sakib = new player('sakib', 40 , "Bangladesh")
+sakib.age = 53
+const players : player[] = []
+
+players.push(marshafi)
+players.push(sakib)

@@ -1,7 +1,6 @@
 // video 2 
 // console first
 // console.log('Hi')
-export {};
 // declear variable
 // const country = "Bangladesh";
 // console.log(country)
@@ -118,3 +117,22 @@ export {};
 //    }
 // }
 // console.log(add(3 , 5 , "min")) 
+//-------------------------------------------
+// video - 9 
+class player {
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = a;
+        this.country = c;
+    }
+    play() {
+        console.log(`${this.name} from ${this.country}`);
+    }
+}
+const marshafi = new player('marshafi', 43, "Bangladesh");
+const sakib = new player('sakib', 40, "Bangladesh");
+sakib.age = 53;
+const players = [];
+players.push(marshafi);
+players.push(sakib);
+export {};
