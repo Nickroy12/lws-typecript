@@ -1,6 +1,7 @@
 // video 2 
 // console first
 // console.log('Hi')
+export {};
 // declear variable
 // const country = "Bangladesh";
 // console.log(country)
@@ -79,18 +80,41 @@
 //     age:34
 // }
 //-------------------------------------
-//  video -6 
-let myFunc;
-myFunc = () => {
-    console.log('Hello');
-};
-let myName = (firstName, lastName, middleName = "chandra") => {
-    console.log(middleName);
-    console.log(`Hi ${firstName} ${lastName}`);
-};
-myName('Nick', "roy");
-let myNum = (a, b, c = "true") => {
-    return a + b;
-};
-myName('Nick', "roy");
-export {};
+// //  video -6 
+// let myFunc : Function;
+// myFunc= () =>{
+//     console.log('Hello')
+// };
+// let myName = (firstName : string , lastName : string, middleName:string = "chandra" ) =>{
+//     console.log(middleName)
+//       console.log(`Hi ${firstName} ${lastName}`)
+// }
+//  myName('Nick' , "roy")
+// let myNum = (a : string , b : string, c:string = "true") =>{
+// return a + b
+// }
+//  myName('Nick' , "roy")
+// ___________________________________________________________
+// video - 7
+// type numOrString = string | number;
+// type userType =  {name: string; age: number}
+// const userDetails = (
+//     id: numOrString ,
+//     user:userType
+// )=>{
+// console.log(`Hi my name is ${user.name} , my age is ${user.age}, my id is ${id}`)
+// }
+// const sayHello = (user: userType) => {
+//   console.log(`Hello ${user.age > 50 ? "Sir" : "Mr."} ${user.name}`);
+// };
+//___________________________________
+// video - 8 
+// let add: (x:number , y:number , z:string)=> number;
+// add =(a:number , b:number , c:string)=>{
+//    if (c === 'add'){
+//     return a + b
+//    }else{
+//      return a -b 
+//    }
+// }
+// console.log(add(3 , 5 , "min")) 
